@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+article,aside,dialog,figcaption,figure,footer,header,section,footer,nav,menu,video {display:block;}
+
+html {
+    font-size: 16px;
+}
+
+body {
+	margin: 0;
+	font-size: 1rem;
+	font-family: Helvetica,Arial,STHeiti,"Microsoft Yahei","Open Sans","Helvetica Neue",sans-serif;
+}
+
+/* 定义所有链接的样式 */
+a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+
+.navbar-default {
+	background-color: #C90000;
+}
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: #fff;
+}
+
+
+/* 食谱图片列表 */
+.new-menu {
+	width: 198px;
+	height: auto;
+	display: inline-block;
+	/*float: left;*/
+	margin: 7px 7px 10px 0;
+	border: 1px solid #E3DFDF;
+	text-align:left;
+}
+.new-menu p, 
+.recipeName {
+	margin: 7px;
+}
+.new-menu a:hover {
+	color: #FA7E3E;
+}
+
+/* 菜单栏 */
+.navMenu{
+	font-size: 1rem;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	/*background-color: #E3EB5E;*/
+	cursor: pointer;
+}
+.navMenu a:link, 
+.navMenu a:visited {
+	background-color: #98bf21;
+	color: #fff;
+	text-align: center;
+}
+.navMenu a:hover, 
+.navMenu a:active {
+	background-color: #7a991a;
+}
+.nav > li > a:hover {
+	background-color: #7a991a;
+}
+
+/* 导航栏小图标 */
+.glyphicon {
+	margin-right: 4px;
+}
+/* 返回顶部 */
+.fixed-btn {
+	position: fixed;
+	right: 1%;
+	bottom: 5%;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	border: 1px solid #eee;
+	z-index: 1040;
+	/*background-color: #fff;*/
+	background: #fff url(../images/gotop.png) no-repeat 10px 10px;
+	cursor: pointer;
+	border-radius: 6px;
+}
+
+h3 a:hover {
+	text-decoration: none;
+	color: #c90000;
+}
