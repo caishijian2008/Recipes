@@ -9,6 +9,7 @@
 <!-- Bootstrap CSS -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<script src="js/main.js" charset="utf-8"></script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -102,7 +103,7 @@
         <a href="#No.1" target="_blank">
           <div>
             <div class="recipeImg">
-              <img alt="图1" title="jijiji" width="196" height="126" src="images/jimiyumili.jpg"/>  
+              <img alt="图1" width="196" height="126" src="images/jimiyumili.jpg"/>  
             </div>
             <div class="recipeName">鸡米玉米粒</div>
           </div>
@@ -422,24 +423,25 @@
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script>
 
-<!-- scroll to top JS -->
 <script>
   $(document).ready(function(e) {
+  /* scroll to top JS */
       $(".fixed-btn").hide();
-	  $(function() {
-		$(window).scroll(function(e) {
+    $(function() {
+    $(window).scroll(function(e) {
             if($(window).scrollTop() >= 100) {
-				$(".fixed-btn").fadeIn();
-			} else {
-			    $(".fixed-btn").fadeOut();
-			}
+        $(".fixed-btn").fadeIn();
+      } else {
+          $(".fixed-btn").fadeOut();
+      }
         });
-	  });
-	  $(".fixed-btn").click(function(e) {
+    });
+    $(".fixed-btn").click(function(e) {
         $("html, body").animate({scrollTop: 0}, 300); 
-		return false; 
-      });
+    return false; 
+      }); 
   });
 </script>
+
 </body>
 </html>
