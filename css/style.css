@@ -38,6 +38,25 @@ a {
 	background-color: #fff;
 }
 
+/* 面包屑导航 */
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.breadcrumb > li {
+  display: inline-block;
+}
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: "/\00a0";
+}
+.breadcrumb > .active {
+  color: #777;
+}
 
 /* 食谱图片列表 */
 .new-menu {
@@ -86,6 +105,24 @@ a {
 .nav > li > a:hover {
 	background-color: #7a991a;
 }
+
+/* 注册与登录 */
+.username,
+.password,
+.email {
+	width: 100%;
+    padding: 10px 0;
+    text-decoration: dotted;
+}
+.submit {
+	margin: 10px auto 0;
+}
+.tips {
+	list-style: none;
+	float: left;
+	
+}
+
 
 /* 导航栏小图标 */
 .glyphicon {
