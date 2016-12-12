@@ -71,7 +71,8 @@ ul {list-style: none;}
 	text-align: left;
 }
 .new-menu p, 
-.recipeName {
+.recipeName,
+.v-pw-w {
 	margin: 7px;
 }
 .new-menu a:hover {
