@@ -22,6 +22,7 @@ body {
 a {
 	display: block;
 	text-decoration: none;
+	cursor: pointer;
 	color: #000;
 }
 
@@ -67,7 +68,7 @@ ul {list-style: none;}
 	display: inline-block;
 	margin: 7px 7px 10px 0;
 	border: 1px solid #E3DFDF;
-	text-align:left;
+	text-align: left;
 }
 .new-menu p, 
 .recipeName {
@@ -177,3 +178,76 @@ h3 a:hover {
 	text-decoration: none;
 	color: #c90000;
 }
+
+/* caipudaquan.html */
+/* 分类列表 */
+.category-list li {
+	float: left;
+	margin-right: 20px;
+	text-align: center;
+	font-size: 1em;
+}
+
+.mt20 {margin-top: 20px;}
+.h1-style {
+	font-size: 1.5em;
+	color: #817c74;
+}
+.tc {text-align: center;}
+
+/* 分类列表标签样式 */
+.gblock-link {
+	display: block;
+	color: #fff;
+	padding: 10px 22px;
+	height: 2em;
+	line-height: 1em;
+	background-color: #a79e95;
+}
+.gblock-link:hover {
+	background-color: #fa7e3e;
+	color: #fff;
+}
+a:hover {text-decoration: none;}
+
+/* 详细分类列表 */
+.detail-cate-list {
+    display: block;
+    float: left;
+    margin: 20px auto;
+}
+.bpanel {
+	display: block;
+	border: 1px solid #eee;
+}
+.c-name {
+	font-size: 18px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 25px;
+	background-color: #f1f0ee;
+}
+.c-name div {
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: 55px 55px;
+}
+.c-name .d {background-image: url(../images/icon/d.png);}
+.c-name .zhu {background-image: url(../images/icon/zhu.png);}
+.c-name .niu {background-image: url(../images/icon/niu.png);}
+.c-name .zhurou {background-image: url(../images/icon/zhurou.png);}
+.c-name .ji {background-image: url(../images/icon/ji.png);}
+.c-name .yang{background-image: url(../images/icon/yang.png);}
+.c-name .nai{background-image: url(../images/icon/nai.png);}
+
+.line-list {
+	margin-bottom: 15px;
+}
+.line-list li {
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	width: 80px;
+}
+.line-list li a {color: #000}
+.line-list li a:hover {color: #fa7e3e;}
