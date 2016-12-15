@@ -71,15 +71,14 @@ ul {list-style: none;}
 	text-align: left;
 }
 .new-menu p, 
-.recipeName,
-.v-pw-w {
+.recipe-name {
 	margin: 7px;
 }
 .new-menu a:hover {
 	color: #FA7E3E;
 }
 
-.recipeImg:hover {
+.recipe-img:hover {
 	-webkit-transform: scale(1.5, 1.5);
 	-ms-transform: scale(1.5, 1.5);
 	-o-transform: scale(1.5, 1.5);
@@ -87,7 +86,7 @@ ul {list-style: none;}
 }
 
 /* 菜单栏 */
-.navMenu{
+.navmenu{
 	font-size: 1rem;
 	font-weight: bold;
 	display: inline-block;
@@ -95,14 +94,14 @@ ul {list-style: none;}
 	/*background-color: #E3EB5E;*/
 	cursor: pointer;
 }
-.navMenu a:link, 
-.navMenu a:visited {
+.navmenu a:link, 
+.navmenu a:visited {
 	background-color: #98bf21;
 	color: #fff;
 	text-align: center;
 }
-.navMenu a:hover, 
-.navMenu a:active {
+.navmenu a:hover, 
+.navmenu a:active {
 	background-color: #7a991a;
 }
 .nav > li > a:hover {
@@ -252,3 +251,17 @@ a:hover {text-decoration: none;}
 }
 .line-list li a {color: #000}
 .line-list li a:hover {color: #fa7e3e;}
+
+.aside-panel {
+	border: 1px solid #eae6e3;
+	margin: 0 0 0 -70px;
+	padding: 5px;
+}
+.tip-list {
+	background-color: #fff;
+	color: #ff7501;
+	padding: 5px 5px 5px 18px;
+}
+.tip-list li {
+	
+}
