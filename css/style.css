@@ -13,9 +13,9 @@ html {
 }
 
 body {
-	margin: 0;
 	font-size: 1rem;
-	font-family: Helvetica,Arial,STHeiti,"Microsoft Yahei","Open Sans","Helvetica Neue",sans-serif;
+	font-family: Arial,Helvetica,"Microsoft Yahei",sans-serif,"Open Sans","Helvetica Neue",STHeiti;
+	background-color: #fff;
 }
 
 /* 定义所有链接的样式 */
@@ -185,12 +185,12 @@ h3 a:hover {
 	float: left;
 	margin-right: 20px;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 .mt20 {margin-top: 20px;}
 .h1-style {
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	color: #817c74;
 }
 .tc {text-align: center;}
@@ -220,8 +220,10 @@ a:hover {text-decoration: none;}
 	display: block;
 	border: 1px solid #eee;
 }
+
+/* 分类名称 */
 .c-name {
-	font-size: 18px;
+	font-size: 1.1rem;
 	height: 40px;
 	line-height: 40px;
 	padding: 0 25px;
@@ -264,4 +266,15 @@ a:hover {text-decoration: none;}
 }
 .tip-list li {
 	
+}
+
+.paging {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.bottom-div {
+	padding: 30px 15px;
+	/* background-color: #f5f5f5; */
 }
