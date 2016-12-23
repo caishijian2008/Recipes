@@ -20,7 +20,6 @@ body {
 
 /* 定义所有链接的样式 */
 a {
-	display: block;
 	text-decoration: none;
 	cursor: pointer;
 	color: #000;
@@ -179,6 +178,12 @@ h3 a:hover {
 	color: #c90000;
 }
 
+.mt20 {margin-top: 20px;}
+.mt10 {margin-top: 10px;}
+.fl {float: left;}
+.pr {position: relative;}
+.p15 {padding: 15px;}
+
 /* caipudaquan.html */
 /* 分类列表 */
 .category-list li {
@@ -188,7 +193,6 @@ h3 a:hover {
 	font-size: 1rem;
 }
 
-.mt20 {margin-top: 20px;}
 .h1-style {
 	font-size: 1.5rem;
 	color: #817c74;
@@ -268,13 +272,115 @@ a:hover {text-decoration: none;}
 	
 }
 
+/* 分页的位置 */
 .paging {
 	display: block;
 	margin: 0 auto;
 	width: 50%;
 }
 
+/* 底部的div */
 .bottom-div {
 	padding: 30px 15px;
 	/* background-color: #f5f5f5; */
+}
+
+/* kelemenzhurou.html etc. */
+.user-img {
+	width: 60px;
+	height: 60px;
+	margin-top: 5px;
+}
+
+.recipe-exp .h1-style {
+	display: inline;
+}
+
+.recipe-slider {
+	position: absolute;
+	width: 288px;
+	height: 216px;
+	left: 0;
+	overflow: hidden;
+}
+.recipe-exp {
+	margin-left: 288px;
+	height: 216px;
+}
+.recipe-exp .re-up {
+	padding-top: 15px;
+	padding-left: 20px;
+}
+.recipe-exp .re-down {
+    border-top: 1px solid #eae6e3;
+    padding: 10px 20px;
+}
+.user {
+    padding: 10px 0 20px 0;
+    overflow: hidden;	
+}
+.img {
+	width: 70px;
+	height: 70px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.info1 {
+	float: left;
+	padding-left: 10px;
+	height: 70px;
+}
+.recipe-exp .re-down .user .info1 h4 {
+    height: 22px;
+    line-height: 22px;
+    font-size: 1em;
+    margin: 0;
+    padding-top: 0;
+    color: #ff3232;
+    position: relative;
+}
+.recipe-exp .re-down .user .info1 h4 a {color: #ff3232;}
+.recipe-exp .re-down .user .info1 span {
+	line-height: 24px;
+	padding-top: 4px;
+}
+
+.recipe-exp .re-up .favbtn {
+	/* border-top: 1px solid #eae6e3; */
+    padding: 20px 0;
+}
+.recipe-exp .re-up .favbtn .addtofav {
+	background-color: #fa7e3e;
+	color: #fff;
+	display: inline-block;
+	width: 122px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	padding: 0;
+	border: 0;
+	cursor: pointer;
+}
+
+.re-steps .dl .dt {
+	float: left;
+	width: 80px;
+	position: absolute;
+}
+.re-steps .dl .dd {
+	float: left;
+	position: relative;
+	margin-left: 80px;
+}
+.re-steps .dl .dd ul li {
+	display: inline-block;
+	padding: 0 10px;
+	border: 1px solid #eee;
+	float: left;
+	width: 50%;
+}
+.re-steps .dl .dd ul li span {
+	text-align: right;
+	float: right;
 }
