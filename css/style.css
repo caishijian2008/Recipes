@@ -178,6 +178,26 @@ h3 a:hover {
 	color: #c90000;
 }
 
+.ztlist_cur {
+	height: 4px;
+	margin: 20px auto 0;
+	overflow: hidden;
+	text-align: center;
+}
+.ztlist_cur span {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: top;
+	height: 4px;
+	width: 32px;
+	background: #eddcbe;
+	margin: 0 2px;
+}
+.ztlist_cur span.current {
+	background: #ff5151;
+}
+
 .mt20 {margin-top: 20px;}
 .mt10 {margin-top: 10px;}
 .fl {float: left;}
