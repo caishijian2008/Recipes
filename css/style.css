@@ -118,6 +118,19 @@ ul {list-style: none;}
 	background-color: #7a991a;
 }
 
+/* 首页滚动动画 */
+.ztlist-item {
+	height: 181px;
+	overflow: hidden;
+}
+.ztlist-item li {
+  display: block;
+  float: left;
+  margin: 0 7px 0 0;
+  padding: 0;
+  position: relative;
+}
+
 /* 注册与登录 */
 .username,
 .password,
