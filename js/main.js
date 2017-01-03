@@ -1,18 +1,26 @@
 $(document).ready(function() {
   
   /* 首页循环播放的动画 */
-  function ztlistMoveleft() {
-    $("#ztlist_item_list_li").animate({"marginleft": "0px"}, 500, function() {
+  /*function ztlistMoveleft() {
+    $("#ztlist_item_list_ul").animate({"marginLeft": "0px"}, 500, function() {
       $("#ztlist_item_list_li").last().prependTo($("#ztlist_item_list_ul"));
-      $("#ztlist_item_list_li").css('margin-left', '-198px');
+      $("#ztlist_item_list_ul").css('margin-left', '-205px');
+      
+    });
+  }*/
+  
+  function ztlistMoveleft() {
+    $("#ztlist_item_list_ul").animate({"marginLeft": "0px"}, 500, function() {
+      $("#ztlist_item_list_li").last().prependTo($("#ztlist_item_list_ul"));
+      $("#ztlist_item_list_ul").css('margin-left', '-205px');
       
     });
   }
 
   function ztlistMoveright() {
-    $("#ztlist_item_list_li").animate({"marginleft": "-396px"}, 500, function() {
+    $("#ztlist_item_list_ul").animate({"marginLeft": "-410px"}, 500, function() {
       $("#ztlist_item_list_li").first().appendTo($("#ztlist_item_list_ul"));
-      $("#ztlist_item_list_li").css('margin-left', '0');
+      $("#ztlist_item_list_ul").css('margin-left', '-205px');
     });
   }
 
