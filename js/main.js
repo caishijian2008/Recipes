@@ -28,12 +28,12 @@ $(document).ready(function() {
 
   $(function() {
     if ($("#ztlist_item_list_li").length > 0) {
-      index_cd_move = setInterval(function(){ztlistMoveright();},5000);
+      index_cd_move = setInterval(function(){ztlistMoveright();},3000);
       $("#ztlist_item_list_ul").mouseenter(function() {
         clearInterval(index_cd_move);
       });
       $("#ztlist_item_list_ul").mouseleave(function() {
-        index_cd_move = setInterval(function(){ztlistMoveright();},5000);
+        index_cd_move = setInterval(function(){ztlistMoveright();},3000);
       });
     }
   });
