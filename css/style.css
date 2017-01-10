@@ -138,6 +138,7 @@ ul {list-style: none;}
 /* 注册与登录 */
 .username,
 .password,
+.repassword,
 .email {
 	width: 100%;
     padding: 0 12px;
@@ -446,4 +447,9 @@ a:hover {text-decoration: none;}
 .re-steps .dl .dd ul li span {
 	text-align: right;
 	float: right;
+}
+
+.error {
+  color: red;
+  font-weight: normal;
 }
