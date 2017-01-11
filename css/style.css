@@ -100,7 +100,6 @@ ul {list-style: none;}
 	font-weight: bold;
 	display: inline-block;
 	vertical-align: top;
-	/*background-color: #E3EB5E;*/
 	cursor: pointer;
 }
 .navmenu a:link, 
@@ -113,9 +112,17 @@ ul {list-style: none;}
 .navmenu a:active {
 	background-color: #7a991a;
 }
-
 .nav > li > a:hover {
 	background-color: #7a991a;
+	/* 修改处+++++++++++++++++++++++++ */
+	transition: padding 1s;
+	-webkit-transition: padding 1s;
+	-moz-transition: padding 1s;
+	-ms-transition: padding 1s;
+}
+.nav > li > a:hover { /* 修改处+++++++++++++++++++++++++ */
+    padding: 10px 15px 13px 15px;
+    /* height: 50px; */
 }
 
 /* 首页滚动动画 */
