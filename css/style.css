@@ -114,13 +114,16 @@ ul {list-style: none;}
 }
 .nav > li > a:hover {
 	background-color: #7a991a;
-	/* 修改处+++++++++++++++++++++++++ */
+	/* 修改处①+++++++++++++++++++++++++ 
+     *鼠标经过时菜单栏高度变高且菜单栏以下部分
+     *固定不变
+	*/
 	transition: padding 1s;
 	-webkit-transition: padding 1s;
 	-moz-transition: padding 1s;
 	-ms-transition: padding 1s;
 }
-.nav > li > a:hover { /* 修改处+++++++++++++++++++++++++ */
+.nav > li > a:hover { /* 修改处②+++++++++++++++++++++++++ */
     padding: 10px 15px 13px 15px;
     /* height: 50px; */
 }
