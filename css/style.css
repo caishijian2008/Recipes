@@ -111,9 +111,6 @@ ul {list-style: none;}
 .navmenu a:hover, 
 .navmenu a:active {
 	background-color: #7a991a;
-}
-.nav > li > a:hover {
-	background-color: #7a991a;
 	/* 修改处①+++++++++++++++++++++++++ 
      *鼠标经过时菜单栏高度变高且菜单栏以下部分
      *固定不变
@@ -122,10 +119,11 @@ ul {list-style: none;}
 	-webkit-transition: padding 1s;
 	-moz-transition: padding 1s;
 	-ms-transition: padding 1s;
+	padding: 10px 15px 13px 15px;
 }
-.nav > li > a:hover { /* 修改处②+++++++++++++++++++++++++ */
-    padding: 10px 15px 13px 15px;
-    /* height: 50px; */
+.nav > li > a:hover {
+	background-color: #7a991a;
+	
 }
 
 /* 首页滚动动画 */
